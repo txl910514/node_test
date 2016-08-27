@@ -1,8 +1,16 @@
 {
   "name": "node_test",
   "version": "1.0.0",
-  "description": "",
-  "main": "console_node.js",
+  "description": "process模块参考网址 http://www.css88.com/archives/4548 http://www.mamicode.com/info-detail-1259868.html http://www.tuicool.com/articles/IBBny2V http://www.cnblogs.com/Joans/p/4462993.html http://snoopyxdy.blog.163.com/blog/static/60117440201192841649337/",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  },
+  "devDependencies": {
+    "ftp": "^0.3.10"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,9 +23,5 @@
   "bugs": {
     "url": "https://github.com/txl910514/node_test/issues"
   },
-  "homepage": "https://github.com/txl910514/node_test#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-connect": "^5.0.0"
-  }
+  "homepage": "https://github.com/txl910514/node_test#readme"
 }

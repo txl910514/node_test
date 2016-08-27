@@ -32,6 +32,20 @@ var map_arr = oldArr.map(function(val,key,list){
 });
 /*console.log(map_arr);*/
 
+//some 任意一项返回true,则为true;
+var someArr = array.some(function(val,key,list){
+  return val>1;
+});
+/*console.log(someArr);*/
+
+//every 全部返回true,则为true;
+var everyArr = array.every(function(val,key,list){
+  return val>1;
+});
+console.log(everyArr);
+
+
+
 
 var arr=[5,6,7,8,9];
 //Object.assign
@@ -46,5 +60,5 @@ var o2 = { b: 2 };
 var o3 = { c: 3 };
 
 var obj = Object.assign(o1, o2, o3);
-console.log(obj);
-console.log(o1);
+/*console.log(obj);
+console.log(o1);*/
