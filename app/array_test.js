@@ -2,7 +2,7 @@
  * Created by root on 15/08/16.
  */
 //数组方法
-var array=[5,2,3,4];
+var array=[[],2,[],4];
 //reduce
 var data_test = array.reduce(function(data, val,key,list){
   data['index'+val]=val;
@@ -15,9 +15,10 @@ var data_test = array.reduce(function(data, val,key,list){
 
 //filter
 var newArr = array.filter(function(val,key,list){
+  console.log(val);
   return val>1;
 });
-/*console.log(newArr);*/
+console.log(newArr);
 
 //forEach
 array.forEach(function(val,key,list){
