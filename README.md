@@ -57,4 +57,17 @@
  * https://my.oschina.net/u/941788/blog/110818
  * http://www.w3school.com.cn/js/js_objects.asp
 
+##js
+* http://www.2cto.com/kf/201505/398430.html
+
+## node组件
+* http://www.cnblogs.com/diaosizhang/p/4089422.html
+
+## node 单元测试 assert
+* http://www.cnblogs.com/hong7zai/p/5909914.html
+
+## 各种js插件
+* https://github.com/jobbole/awesome-javascript-cn#security
+* http://hao.jobbole.com/
+
 
