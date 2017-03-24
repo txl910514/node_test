@@ -12,6 +12,7 @@
 
 ## 数组方法参考网址
 * http://www.jb51.net/article/60502.htm
+* http://blog.csdn.net/qq_30100043/article/details/53303768
 
 ## Object.assign参考网址
 * http://www.tuicool.com/articles/2eAZVfn
